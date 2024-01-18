@@ -84,7 +84,6 @@ def restart_game():
     # Update Status
     label.config(text="Player X's turn")
 
-
 restart_button = tk.Button(root, text="Restart Game", font=('normal', 15), command=restart_game)
 restart_button.grid(row=4, column=0, columnspan=3)
 
